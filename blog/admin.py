@@ -18,4 +18,3 @@ class BlogAdmin(SummernoteModelAdmin):
 
 # registering admin class
 admin.site.register(Posts, BlogAdmin)
-
