@@ -11,6 +11,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <title>Django blog CMS</title>
     <style>
       html,
       body {
@@ -25,9 +26,6 @@
       }
       #nofooter {
         flex: 1 0 auto;
-      }
-      darkbtn {
-        color: #66ff99;
       }
       .dark-mode {
         background-color: black;
@@ -55,6 +53,7 @@
         <nav
           class="navbar navbar-expand-lg navbar-light bg-light shadow"
           id="topnav"
+          aria-label=""
         >
           <div class="container-fluid">
             <div class="nav justify-content-end">
@@ -74,7 +73,7 @@
       <footer class="footer" id="foot">
         <div class="container">
           <h5 style="text-align: center">Enjoy the Blog and Stay Updated</h5>
-          <nav class="navbar navbar-expand-lg">
+          <nav class="navbar navbar-expand-lg" aria-label="">
             <div class="container-fluid">
               <p>Copyright © GeeksForGeeks</p>
             </div>
